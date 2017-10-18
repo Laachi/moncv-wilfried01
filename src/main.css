@@ -1,0 +1,92 @@
+body {
+    padding-top: 20px;
+    background-color : #F2FBEF;
+  }
+  
+  nav {
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 10000;
+      overflow: visible;
+      font: normal 16px/24px  'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  nav ul#nav {
+      display: inline-block;
+      position: relative;
+      margin: auto;
+      padding: 0;
+  
+      /* For IE, the outcast */
+      zoom:1;
+      *display: inline;
+  }
+  
+  nav ul#nav > li {
+      display: block;
+      float: left;
+      padding: 0;
+  }
+  
+  header {
+      font-weight: 900;
+      margin: 30px auto;
+      padding: 150px 0;
+      background: url(/static/images/profil.jpg) no-repeat center top;
+      color : firebrick;
+  }
+  
+  h5 {
+      font-weight: 700;
+      color : brown;
+  }
+  
+  section {
+      padding: 10px 0px;
+      margin-bottom: 10px;
+  }
+  
+  #about {
+      background-color : brown;
+  }
+  #about h5 {
+      color : white;
+  }
+  
+  header .centered {
+      text-align: center;
+  }
+  
+  .titre_section {
+      color : brown;
+  }
+  
+  footer {
+      margin-top: 40px;
+      background-color: black;
+      color : white;
+      padding: 20px 0px;
+  }
+  
+  footer h5 {
+      color : white
+  }
+  
+  footer span {
+      font-weight: 500;
+      color : darkorange;
+  }
+  
+  hr {
+      display: block;
+      border-top: 2px solid brown;
+      /* margin: 0px 0px;*/
+      padding: 10px 0px;
+  }
+  
+  #copyright {
+      text-align: right;
+  }
