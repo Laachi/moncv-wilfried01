@@ -35,7 +35,7 @@ body {
       font-weight: 900;
       margin: 30px auto;
       padding: 150px 0;
-      background: url(/static/images/profil.jpg) no-repeat center top;
+      background: url(./static/images/profil.jpg) no-repeat center top;
       color : firebrick;
   }
   
